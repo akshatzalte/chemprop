@@ -50,10 +50,11 @@ def make_mol(smi: str, keep_h: bool, add_h: bool) -> Chem.Mol:
         the RDKit molecule.
     """
     if keep_h:
-        mol = Chem.MolFromSmiles(smi, sanitize=False)
-        Chem.SanitizeMol(
-            mol, sanitizeOps=Chem.SanitizeFlags.SANITIZE_ALL ^ Chem.SanitizeFlags.SANITIZE_ADJUSTHS
-        )
+        mol = Chem.MolFromSmiles(smi, sanitize=True)
+        mol = Chem.AddHs(mol)
+        #Chem.SanitizeMol(
+        #    mol, sanitizeOps=Chem.SanitizeFlags.SANITIZE_ALL ^ Chem.SanitizeFlags.SANITIZE_ADJUSTHS
+        #)
     else:
         mol = Chem.MolFromSmiles(smi)
 

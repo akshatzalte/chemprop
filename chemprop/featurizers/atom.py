@@ -66,18 +66,18 @@ class MultiHotAtomFeaturizer(VectorFeaturizer[Atom]):
         self._subfeats: list[dict] = [
             self.atomic_nums,
             self.degrees,
-            self.formal_charges,
-            self.chiral_tags,
+            #self.formal_charges,
+            #self.chiral_tags,
             self.num_Hs,
-            self.hybridizations,
+            #self.hybridizations,
         ]
         subfeat_sizes = [
             1 + len(self.atomic_nums),
             1 + len(self.degrees),
-            1 + len(self.formal_charges),
-            1 + len(self.chiral_tags),
+            #1 + len(self.formal_charges),
+            #1 + len(self.chiral_tags),
             1 + len(self.num_Hs),
-            1 + len(self.hybridizations),
+            #1 + len(self.hybridizations),
             1,
             1,
         ]
@@ -95,17 +95,17 @@ class MultiHotAtomFeaturizer(VectorFeaturizer[Atom]):
         feats = [
             a.GetAtomicNum(),
             a.GetTotalDegree(),
-            a.GetFormalCharge(),
-            int(a.GetChiralTag()),
+            #a.GetFormalCharge(),
+            #int(a.GetChiralTag()),
             int(a.GetTotalNumHs()),
-            a.GetHybridization(),
+            #a.GetHybridization(),
         ]
         i = 0
         for feat, choices in zip(feats, self._subfeats):
             j = choices.get(feat, len(choices))
             x[i + j] = 1
             i += len(choices) + 1
-        x[i] = int(a.GetIsAromatic())
+        #x[i] = int(a.GetIsAromatic())
         x[i + 1] = 0.01 * a.GetMass()
 
         return x

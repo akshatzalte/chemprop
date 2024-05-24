@@ -78,7 +78,7 @@ class MultiHotAtomFeaturizer(VectorFeaturizer[Atom]):
             #1 + len(self.chiral_tags),
             1 + len(self.num_Hs),
             #1 + len(self.hybridizations),
-            1,
+            #1, removing aromatic
             1,
         ]
         self.__size = sum(subfeat_sizes)
@@ -106,7 +106,7 @@ class MultiHotAtomFeaturizer(VectorFeaturizer[Atom]):
             x[i + j] = 1
             i += len(choices) + 1
         #x[i] = int(a.GetIsAromatic())
-        x[i + 1] = 0.01 * a.GetMass()
+        x[i] = 0.01 * a.GetMass()
 
         return x
 

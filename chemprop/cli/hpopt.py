@@ -1,21 +1,24 @@
-import json
-import logging
-import sys
-from argparse import ArgumentParser, Namespace
 from copy import deepcopy
+import logging
 from pathlib import Path
-import torch
+import sys
+
+from configargparse import ArgumentParser, Namespace
 from lightning import pytorch as pl
 from lightning.pytorch.callbacks import EarlyStopping
+import numpy as np
+import torch
 
 from chemprop.cli.common import add_common_args, process_common_args, validate_common_args
 from chemprop.cli.train import (
+    TrainSubcommand,
     add_train_args,
     build_datasets,
     build_model,
     build_splits,
     normalize_inputs,
     process_train_args,
+    save_config,
     validate_train_args,
 )
 from chemprop.cli.utils.command import Subcommand
@@ -39,7 +42,7 @@ try:
         prepare_trainer,
     )
     from ray.train.torch import TorchTrainer
-    from ray.tune.schedulers import ASHAScheduler
+    from ray.tune.schedulers import ASHAScheduler, FIFOScheduler
 
     DEFAULT_SEARCH_SPACE = {
         "activation": tune.choice(categories=list(Activation.keys())),
@@ -47,7 +50,7 @@ try:
         "aggregation_norm": tune.quniform(lower=1, upper=200, q=1),
         "batch_size": tune.choice([16, 32, 64, 128, 256]),
         "depth": tune.qrandint(lower=2, upper=6, q=1),
-        "dropout": tune.choice([tune.choice([0.0]), tune.quniform(lower=0.05, upper=0.4, q=0.05)]),
+        "dropout": tune.choice([0.0] * 8 + list(np.arange(0.05, 0.45, 0.05))),
         "ffn_hidden_dim": tune.qrandint(lower=300, upper=2400, q=100),
         "ffn_num_layers": tune.qrandint(lower=1, upper=3, q=1),
         "final_lr_ratio": tune.loguniform(lower=1e-2, upper=1),
@@ -65,11 +68,11 @@ try:
 except ImportError:
     NO_HYPEROPT = True
 
-# NO_OPTUNA = False
-# try:
-#     from ray.tune.search.optuna import OptunaSearch
-# except ImportError:
-#     NO_OPTUNA = True
+NO_OPTUNA = False
+try:
+    from ray.tune.search.optuna import OptunaSearch
+except ImportError:
+    NO_OPTUNA = True
 
 
 logger = logging.getLogger(__name__)
@@ -142,9 +145,16 @@ def add_hpopt_args(parser: ArgumentParser) -> ArgumentParser:
 
     raytune_args.add_argument(
         "--raytune-search-algorithm",
-        choices=["random", "hyperopt"],  # , "optuna"],
+        choices=["random", "hyperopt", "optuna"],
         default="hyperopt",
         help="Passed to Ray Tune TuneConfig to control search algorithm",
+    )
+
+    raytune_args.add_argument(
+        "--raytune-trial-scheduler",
+        choices=["FIFO", "AsyncHyperBand"],
+        default="FIFO",
+        help="Passed to Ray Tune TuneConfig to control trial scheduler",
     )
 
     raytune_args.add_argument(
@@ -251,7 +261,7 @@ def update_args_with_config(args: Namespace, config: dict) -> Namespace:
 
 
 def train_model(config, args, train_dset, val_dset, logger, output_transform, input_transforms):
-    update_args_with_config(args, config)
+    args = update_args_with_config(args, config)
 
     train_loader = build_dataloader(
         train_dset, args.batch_size, args.num_workers, seed=args.data_seed
@@ -288,11 +298,17 @@ def train_model(config, args, train_dset, val_dset, logger, output_transform, in
 def tune_model(
     args, train_dset, val_dset, logger, monitor_mode, output_transform, input_transforms
 ):
-    scheduler = ASHAScheduler(
-        max_t=args.epochs,
-        grace_period=min(args.raytune_grace_period, args.epochs),
-        reduction_factor=args.raytune_reduction_factor,
-    )
+    match args.raytune_trial_scheduler:
+        case "FIFO":
+            scheduler = FIFOScheduler()
+        case "AsyncHyperBand":
+            scheduler = ASHAScheduler(
+                max_t=args.epochs,
+                grace_period=min(args.raytune_grace_period, args.epochs),
+                reduction_factor=args.raytune_reduction_factor,
+            )
+        case _:
+            raise ValueError(f"Invalid trial scheduler! got: {args.raytune_trial_scheduler}.")
 
     scaling_config = ScalingConfig(
         num_workers=args.raytune_num_workers, use_gpu=args.raytune_use_gpu
@@ -323,20 +339,20 @@ def tune_model(
         case "hyperopt":
             if NO_HYPEROPT:
                 raise ImportError(
-                    "HyperOptSearch requires hyperopt to be installed. Use 'pip -U install hyperopt' to install."
+                    "HyperOptSearch requires hyperopt to be installed. Use 'pip install -U  hyperopt' to install."
                 )
 
             search_alg = HyperOptSearch(
                 n_initial_points=args.hyperopt_n_initial_points,
                 random_state_seed=args.hyperopt_random_state_seed,
             )
-        # case "optuna":
-        #     if NO_OPTUNA:
-        #         raise ImportError(
-        #             "OptunaSearch requires optuna to be installed. Use 'pip -U install optuna' to install."
-        #         )
+        case "optuna":
+            if NO_OPTUNA:
+                raise ImportError(
+                    "OptunaSearch requires optuna to be installed. Use 'pip install -U  optuna' to install."
+                )
 
-        #     search_alg = OptunaSearch()
+            search_alg = OptunaSearch()
 
     tune_config = tune.TuneConfig(
         metric="val_loss",
@@ -360,7 +376,7 @@ def tune_model(
 def main(args: Namespace):
     if NO_RAY:
         raise ImportError(
-            "Ray Tune requires ray to be installed. Use 'pip -U install ray[tune]' to install."
+            "Ray Tune requires ray to be installed. Use 'pip install -U ray[tune]' to install."
         )
 
     format_kwargs = dict(
@@ -412,13 +428,15 @@ def main(args: Namespace):
     )
 
     best_result = results.get_best_result()
-    best_config = best_result.config
+    best_config = best_result.config["train_loop_config"]
     best_checkpoint = best_result.checkpoint  # Get best trial's best checkpoint
 
     logger.info(f"Saving best hyperparameter parameters: {best_config}")
 
-    with open(args.hpopt_save_dir / "best_params.json", "w") as f:
-        json.dump(best_config, f, indent=4)
+    args = update_args_with_config(args, best_config)
+
+    args = TrainSubcommand.parser.parse_known_args(namespace=args)[0]
+    save_config(TrainSubcommand.parser, args, args.hpopt_save_dir / "best_config.toml")
 
     logger.info(f"Saving best hyperparameter configuration checkpoint: {best_checkpoint}")
 

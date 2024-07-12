@@ -42,8 +42,8 @@ class MorganBinaryFeaturizer(MorganFeaturizerMixin, BinaryFeaturizerMixin, Vecto
 class MorganCountFeaturizer(MorganFeaturizerMixin, CountFeaturizerMixin, VectorFeaturizer[Mol]):
     pass
 
-@MoleculeFeaturizerRegistry("charge_mult")
-class ChargeMultFeaurizer(VectorFeaturizer[Mol]):
+@MoleculeFeaturizerRegistry("charge")
+class ChargeFeaurizer(VectorFeaturizer[Mol]):
     def __call__(self, mol: Chem.Mol) -> np.ndarray:
         return np.array([Chem.GetFormalCharge(mol)])
     def __len__(self) -> int:

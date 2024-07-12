@@ -45,7 +45,6 @@ class MorganCountFeaturizer(MorganFeaturizerMixin, CountFeaturizerMixin, VectorF
 @MoleculeFeaturizerRegistry("charge_mult")
 class ChargeMultFeaurizer(VectorFeaturizer[Mol]):
     def __call__(self, mol: Chem.Mol) -> np.ndarray:
-        mult = sum(atom.GetNumRadicalElectrons() for atom in mol.GetAtoms()) + 1
-        return np.array([Chem.GetFormalCharge(mol), mult])
+        return np.array([Chem.GetFormalCharge(mol)])
     def __len__(self) -> int:
-        return 2
+        return 1

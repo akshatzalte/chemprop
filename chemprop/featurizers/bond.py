@@ -58,7 +58,7 @@ class MultiHotBondFeaturizer(VectorFeaturizer[Bond]):
         self.stereo = stereos or range(6)
 
     def __len__(self):
-        return 2
+        return 2 + (len(self.stereo) + 1)
 
     def __call__(self, b: Bond) -> np.ndarray:
         x = np.zeros(len(self), int)
@@ -76,10 +76,10 @@ class MultiHotBondFeaturizer(VectorFeaturizer[Bond]):
 
         #x[i] = int(b.GetIsConjugated())
         x[i] = int(b.IsInRing())
-        #i += 2
+        i += 1
 
-        #stereo_bit, _ = self.one_hot_index(int(b.GetStereo()), self.stereo)
-        #x[i + stereo_bit] = 1
+        stereo_bit, _ = self.one_hot_index(int(b.GetStereo()), self.stereo)
+        x[i + stereo_bit] = 1
 
         return x
 

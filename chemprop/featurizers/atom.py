@@ -67,7 +67,7 @@ class MultiHotAtomFeaturizer(VectorFeaturizer[Atom]):
             self.atomic_nums,
             self.degrees,
             #self.formal_charges,
-            #self.chiral_tags,
+            self.chiral_tags,
             self.num_Hs,
             #self.hybridizations,
         ]
@@ -75,7 +75,7 @@ class MultiHotAtomFeaturizer(VectorFeaturizer[Atom]):
             1 + len(self.atomic_nums),
             1 + len(self.degrees),
             #1 + len(self.formal_charges),
-            #1 + len(self.chiral_tags),
+            1 + len(self.chiral_tags),
             1 + len(self.num_Hs),
             #1 + len(self.hybridizations),
             #1, removing aromatic
@@ -96,7 +96,7 @@ class MultiHotAtomFeaturizer(VectorFeaturizer[Atom]):
             a.GetAtomicNum(),
             a.GetTotalDegree(),
             #a.GetFormalCharge(),
-            #int(a.GetChiralTag()),
+            int(a.GetChiralTag()),
             int(a.GetTotalNumHs()),
             #a.GetHybridization(),
         ]

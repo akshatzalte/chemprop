@@ -1,4 +1,4 @@
-![ChemProp Logo](images/chemprop_logo.svg)
+![ChemProp Logo](images/rigr_logo.svg)
 # Chemprop
 
 

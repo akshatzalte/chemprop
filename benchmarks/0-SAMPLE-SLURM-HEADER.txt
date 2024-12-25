@@ -1,0 +1,9 @@
+#SBATCH -J title 
+#SBATCH -o title-%j.out
+#SBATCH -t 3-00:00:00
+#SBATCH --exclusive
+#SBATCH -N 1
+#SBATCH -p xeon-g6-volta
+
+export RAY_TEMP_DIR=/state/partition1/user/$USER
+mkdir -p $RAY_TEMP_DIR

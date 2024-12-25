@@ -1,4 +1,4 @@
-![ChemProp Logo](docs/source/_static/images/logo/chemprop_logo.svg)
+![ChemProp Logo](images/chemprop_logo.svg)
 # Chemprop
 
 

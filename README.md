@@ -11,12 +11,15 @@ RIGR is introduced and discussed in our work, which can be found [here](). If RI
 
 The table below provides details on which branch corresponds to specific analyses in our work:
 
-| Branch Name     | Description                                    | Purpose                                                   |
-|------------------|-----------------------------------------------|-----------------------------------------------------------|
-| `rigr_home`     | Primary branch for RIGR development and updates | Contains the core implementation of the RIGR featurizer   |
-| `rigr_benchmark`| Benchmarking branch for RIGR                  | Used to evaluate RIGR's performance across datasets       |
-| `rigr_analysis` | Detailed analysis and case studies            | Contains scripts and results for in-depth analyses        |
-| `rigr_testing`  | Testing branch for RIGR                       | Includes unit tests and validation of RIGR functionality  |
+| Branch Name     | Purpose                                                   |
+|------------------|-----------------------------------------------------------|
+| [`rigr_home`](https://github.com/akshatzalte/chemprop/tree/rigr_home)     | wip   |
+| [`rigr_flag`](https://github.com/akshatzalte/chemprop/tree/rigr_flag) | wip       |
+| [`rigr`](https://github.com/akshatzalte/chemprop/tree/rigr) | wip      |
+| [`native`](https://github.com/akshatzalte/chemprop/tree/native) | wip        |
+| [`rigr_charge`](https://github.com/akshatzalte/chemprop/tree/rigr_charge)  | wip  |
+| [`rigr_charge_stereo_chiral`](https://github.com/akshatzalte/chemprop/tree/rigr_charge_stereo_chiral)  | wip  |
+
 
 ---
 

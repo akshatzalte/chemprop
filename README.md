@@ -1,8 +1,25 @@
 ![ChemProp Logo](images/rigr_logo.svg)
-# Chemprop
+# RIGR
 
+Welcome to the home branch for RIGR!
 
-Chemprop is a repository containing message passing neural networks for molecular property prediction.
+Resonance Invariant Graph Representation (RIGR) is a featurizer implemented as a part of Chemprop v2 to impose resonance invariance for molecular property prediction tasks. Simply add `--rigr` to your Chemprop script to train (or infer) your models using this featurizer.
+
+RIGR is introduced and discussed in our work, which can be found [here](). If RIGR is helpful for your research, please cite our paper.
+
+## Branch Guide
+
+The table below provides details on which branch corresponds to specific analyses in our work:
+
+| Branch Name     | Description                                    | Purpose                                                   |
+|------------------|-----------------------------------------------|-----------------------------------------------------------|
+| `rigr_home`     | Primary branch for RIGR development and updates | Contains the core implementation of the RIGR featurizer   |
+| `rigr_benchmark`| Benchmarking branch for RIGR                  | Used to evaluate RIGR's performance across datasets       |
+| `rigr_analysis` | Detailed analysis and case studies            | Contains scripts and results for in-depth analyses        |
+| `rigr_testing`  | Testing branch for RIGR                       | Includes unit tests and validation of RIGR functionality  |
+
+---
+
 
 Documentation can be found [here](https://chemprop.readthedocs.io/en/main/).
 

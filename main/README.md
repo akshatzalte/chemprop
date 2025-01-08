@@ -1,1 +1,1 @@
-The *main* folder containing all the scripts, splits, best hyperparameters, and model files for the main QuantumPioneer dataset used for comparing `rigr`, `native`, and `native+aug` models as discussed in our [work]().
+The *main* folder contains all the scripts, dataset splits, best hyperparameters, and model files for the primary QuantumPioneer dataset used to compare the `rigr`, `native`, and `native+aug` models, as discussed in our [work](). For both random and K-means splits, files for all training dataset sizes are included.

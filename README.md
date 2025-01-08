@@ -3,9 +3,11 @@
 
 Welcome to the home branch for RIGR!
 
-Resonance Invariant Graph Representation (RIGR) is a featurizer implemented as a part of Chemprop v2 to impose resonance invariance for molecular property prediction tasks. If using command line interface (CLI), simply add `--rigr` flag to your Chemprop script to train (or infer) your models using this featurizer. For using RIGR in a Jupyter notebook refer to our example notebook [here](https://github.com/akshatzalte/chemprop/blob/rigr_flag/notebooks/rigr_flag_notebook.ipynb). 
+Resonance Invariant Graph Representation (RIGR) is a featurizer implemented as a part of Chemprop v2 to impose resonance invariance for molecular property prediction tasks. If using the command line interface (CLI), add `--rigr` flag to your Chemprop script to train (or infer) your models using this featurizer. For using RIGR in a Jupyter notebook refer to our example notebook [here](https://github.com/akshatzalte/chemprop/blob/rigr_flag/notebooks/rigr_flag_notebook.ipynb). 
 
 RIGR is introduced and discussed in our work: [Resonance Invariant Graph Representation (RIGR) for molecular property prediction](). If RIGR is helpful for your research, please cite our paper.
+
+The table below lists the atom and bond features that are present and absent in RIGR.
 
 ### Atom Features
 
@@ -39,7 +41,7 @@ The table below provides details on which branch corresponds to specific analyse
 | Branch Name     | Purpose                                                   |
 |------------------|-----------------------------------------------------------|
 | [`rigr_home`](https://github.com/akshatzalte/chemprop/tree/rigr_home)     | Home branch with all necessary information to learn about RIGR |
-| [`rigr_flag`](https://github.com/akshatzalte/chemprop/tree/rigr_flag) | Implements `rigr` as a flag for easy use in CLI as well as Jupyter notebook |
+| [`rigr_flag`](https://github.com/akshatzalte/chemprop/tree/rigr_flag) | Implements `rigr` as a flag for easy use in CLI as well as Jupyter Notebook |
 | [`rigr`](https://github.com/akshatzalte/chemprop/tree/rigr) | The branch used for training all the `rigr` models in the [paper]() |
 | [`native`](https://github.com/akshatzalte/chemprop/tree/native) | The branch used for training all the `native` and `native+aug` models in the [paper]() |
 | [`rigr_charge`](https://github.com/akshatzalte/chemprop/tree/rigr_charge)  | Same as `rigr` but with additional molecule level charge featurizer -- used for most property prediction benchmarks |

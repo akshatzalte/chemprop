@@ -7,11 +7,27 @@ Resonance Invariant Graph Representation (RIGR) is a featurizer implemented as a
 
 RIGR is introduced and discussed in our work: [Resonance Invariant Graph Representation (RIGR) for molecular property prediction](). If RIGR is helpful for your research, please cite our paper.
 
-| **Atom features in Chemprop** | **Present in RIGR?** | **Bond features in Chemprop** | **Present in RIGR?** |
-|-------------------------------|----------------------|-------------------------------|----------------------|
-| Formal Charge                 | ✅                   | Bond type                     | ❌                   |
-| Aromatic                      | ❌                   | Conjugated                    | ✅                   |
-| Hybridization                 | ✅                   | Stereo                        | ❌                   |
+### Atom Features
+
+| **Feature**            | **Description**                                                                 | **Present in RIGR?** |
+|------------------------|---------------------------------------------------------------------------------|:--------------------:|
+| Atomic&nbsp;number     | The choice for atom type denoted by atomic number                                | ☑️                   |
+| Degree                 | Number of direct neighbors of the atom                                           | ☑️                    |
+| Formal&nbsp;charge     | Integer charge assigned to the atom                                              | ☐                   |
+| Chiral&nbsp;tag        | The choices for an atom's chiral tag (See `rdkit.Chem.rdchem.ChiralType`)        | ☐                   |
+| Number&nbsp;of&nbsp;H  | Number of bonded hydrogen atoms                                                  | ☑️                   |
+| Hybridization          | Atom's hybridization type (See `rdkit.Chem.rdchem.HybridizationType`)            | ☐                   |
+| Aromaticity            | Indicates whether the atom is aromatic or not                                    | ☐                   |
+| Atomic&nbsp;mass       | The atomic mass of the atom                                                      | ☑️                   |
+
+
+### Bond Features
+
+| **Feature**        | **Description**                  | **Present in RIGR?** |
+|--------------------|----------------------------------|:--------------------:|
+| Bond type          | Single, double, or triple bond   | ☑️                   |
+| Conjugated         | Whether bond is conjugated       | ☑️                   |
+| Stereo             | Stereochemistry of the bond      | ☐                    |
 
 
 ## Branch Guide

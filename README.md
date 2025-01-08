@@ -23,11 +23,13 @@ RIGR is introduced and discussed in our work: [Resonance Invariant Graph Represe
 
 ### Bond Features
 
-| **Feature**        | **Description**                  | **Present in RIGR?** |
-|--------------------|----------------------------------|:--------------------:|
-| Bond type          | Single, double, or triple bond   | ☑️                   |
-| Conjugated         | Whether bond is conjugated       | ☑️                   |
-| Stereo             | Stereochemistry of the bond      | ☐                    |
+| **Feature**           | **Description**                                                                                      | **Present in RIGR?** |
+|-----------------------|------------------------------------------------------------------------------------------------------|:--------------------:|
+| Bond&nbsp;type        | The known bond types: single, double, or triple bond                                                 | ☐                   |
+| Conjugation           | Indicates whether the bond is conjugated or not                                                     | ☐                   |
+| Ring                  | Indicates whether the bond is a part of a ring                                                      | ☑️                    |
+| Stereochemistry       | Stores the known bond stereochemistries (See [BondStereo](https://www.rdkit.org/docs/source/rdkit.Chem.rdchem.html#rdkit.Chem.rdchem.BondStereo.values)) | ☐                    |
+
 
 
 ## Branch Guide

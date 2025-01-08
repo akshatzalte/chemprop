@@ -1,0 +1,1 @@
+The *main* folder containing all the scripts, splits, best hyperparameters, and model files for the main QuantumPioneer dataset used for comparing `rigr`, `native`, and `native+aug` models as discussed in our [work]().

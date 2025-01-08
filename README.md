@@ -32,8 +32,6 @@ The table below lists the atom and bond features that are present and absent in 
 | Ring                  | Indicates whether the bond is a part of a ring                                                      | ☑️                    |
 | Stereochemistry       | Stores the known bond stereochemistries (See [BondStereo](https://www.rdkit.org/docs/source/rdkit.Chem.rdchem.html#rdkit.Chem.rdchem.BondStereo.values)) | ☐                    |
 
-
-
 ## Branch Guide
 
 The table below provides details on which branch corresponds to specific analyses in our work:
@@ -46,6 +44,5 @@ The table below provides details on which branch corresponds to specific analyse
 | [`native`](https://github.com/akshatzalte/chemprop/tree/native) | The branch used for training all the `native` and `native+aug` models in the [paper]() |
 | [`rigr_charge`](https://github.com/akshatzalte/chemprop/tree/rigr_charge)  | Same as `rigr` but with additional molecule level charge featurizer -- used for most property prediction benchmarks |
 | [`rigr_charge_stereo_chiral`](https://github.com/akshatzalte/chemprop/tree/rigr_charge_stereo_chiral)  | Same as `rigr_charge` but with bond stereochemistry and atom chirality features -- used for [RGD1 benchmark](./benchmarks/barrier_rgd1_cnho) |
-
 ---
 

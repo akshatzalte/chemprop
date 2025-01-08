@@ -7,6 +7,13 @@ Resonance Invariant Graph Representation (RIGR) is a featurizer implemented as a
 
 RIGR is introduced and discussed in our work: [Resonance Invariant Graph Representation (RIGR) for molecular property prediction](). If RIGR is helpful for your research, please cite our paper.
 
+| **Atom features in Chemprop** | **Present in RIGR?** | **Bond features in Chemprop** | **Present in RIGR?** |
+|-------------------------------|----------------------|-------------------------------|----------------------|
+| Formal Charge                 | ✅                   | Bond type                     | ❌                   |
+| Aromatic                      | ❌                   | Conjugated                    | ✅                   |
+| Hybridization                 | ✅                   | Stereo                        | ❌                   |
+
+
 ## Branch Guide
 
 The table below provides details on which branch corresponds to specific analyses in our work:

@@ -49,4 +49,3 @@ The table below provides details on which branch corresponds to specific analyse
 
 ---
 
-Chemprop documentation can be found [here](https://chemprop.readthedocs.io/en/main/).

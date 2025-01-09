@@ -1,5 +1,5 @@
 ![ChemProp Logo](images/rigr_logo.svg)
-# RIGR  
+# RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction
 Welcome to the home branch for RIGR.  
 **60% fewer features, resonance invariant, same high performance!**
 

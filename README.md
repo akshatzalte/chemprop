@@ -1,6 +1,6 @@
 ![ChemProp Logo](images/rigr_logo.svg)
 # RIGR  
-Welcome to the home branch for RIGR!  
+Welcome to the home branch for RIGR.
 **60% fewer features, resonance invariant, same high performance!**
 
 Resonance Invariant Graph Representation (RIGR) is a featurizer implemented as part of **Chemprop v2**, designed to impose resonance invariance for molecular property prediction tasks.

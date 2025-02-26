@@ -1,4 +1,4 @@
-**Implements `rigr` as a flag**
+# Implements `rigr` as a flag (Outdated version)
 
 Use the RIGR featurizer in CLI by adding `--rigr` to train (and infer) your chemprop models. This implementation is **outdated** and currently not present in Chemprop v2. Now, RIGR is available as a choice of multi-hot atom featurization scheme. To use RIGR, add the `--multi-hot-atom-featurizer-mode RIGR` argument to your training or inference script. For notebook users, refer to our [example notebook](). 
 

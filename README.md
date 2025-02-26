@@ -1,5 +1,5 @@
-**RIGR featurizer -- Resonance Invariant Graph Representation**
+# RIGR: Resonance Invariant Graph Representation
 
-This branch is used to train models with RIGR featurizer. See [rigr_home](https://github.com/akshatzalte/chemprop/tree/rigr_home) for more information.
+This branch is used to train models with RIGR featurizer (referred to `RIGR` models in the paper). See [rigr_home](https://github.com/akshatzalte/chemprop/tree/rigr_home) for more information.
 
-Reference:  [Resonance Invariant Graph Representation (RIGR) for Molecular Property Prediction]()
+**Reference:**  [Resonance Invariant Graph Representation (RIGR) for Molecular Property Prediction]()

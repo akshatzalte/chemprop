@@ -1,5 +1,5 @@
-# Main folder
+# Primary Dataset
 
-The **main** folder contains all the scripts, datasets, splits, best hyperparameters, and model files for the primary QuantumPioneer dataset used to compare the `rigr`, `native`, and `native+aug` models, as discussed in our [work](). Files for all training dataset sizes are included for both random and K-means splits.
+The **primary** folder contains all the scripts, datasets, splits, best hyperparameters, and model files for the primary QuantumPioneer dataset used to compare the ```RIGR```, `native`, and `native+aug` models, as discussed in our [work](). Files for all training dataset sizes are included for both random and K-Means spliting.
 
-We recommend downloading the entire main folder to your local system and using the appropriate chemprop branch (as per the [branch guide](https://github.com/akshatzalte/chemprop/tree/rigr_home?tab=readme-ov-file#branch-guide)) to reproduce all the results from the paper.
+To reproduce all the results from the paper, we recommend downloading this folder to your local system and using the appropriate chemprop branch (as per the [branch guide](https://github.com/akshatzalte/chemprop/tree/rigr_home?tab=readme-ov-file#branch-guide)) to train or test the models.

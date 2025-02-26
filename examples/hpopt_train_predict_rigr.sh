@@ -18,8 +18,8 @@ chemprop hpopt \
 -t regression \
 --data-path $data_path \
 --splits-file $splits_path \
---rigr \
---molecule-featurizer charge multiplicity \
+--multi-hot-atom-featurizer RIGR \
+--molecule-featurizer charge \
 --add-h \
 --keep-h \
 --epochs 10 \
@@ -39,8 +39,8 @@ chemprop train \
 -t regression \
 --data-path $data_path \
 --splits-file $split_path \
---rigr \
---molecule-featurizer charge multiplicity \
+--multi-hot-atom-featurizer RIGR \
+--molecule-featurizer charge \
 --add-h \
 --keep-h \
 --epochs 10 \
@@ -61,8 +61,8 @@ chemprop predict \
 -i ../../rigr_h298_50k/dataset/final_aug_test.csv \
 -o results_aug/test_preds.csv \
 --model-path $all_model_dir \
---rigr \
---molecule-featurizer charge multiplicity \
+--multi-hot-atom-featurizer RIGR \
+--molecule-featurizer charge \
 --add-h \
 --keep-h \
 --devices 1

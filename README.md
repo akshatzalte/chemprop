@@ -1,5 +1,7 @@
 **Implements `rigr` as a flag**
 
-Use the RIGR featurizer in CLI by adding `--rigr` to train (and infer) your chemprop models. You can find an example bash script [here](https://github.com/akshatzalte/chemprop/tree/rigr_home/examples). Optionally, depending on your dataset and task, you can use additional molecular charge and multiplicity features. See [rigr_home](https://github.com/akshatzalte/chemprop/tree/rigr_home) for more information. For notebook users, refer to our [example notebook](https://github.com/akshatzalte/chemprop/blob/rigr_flag/examples/rigr_notebooks/rigr_flag_notebook.ipynb).
+Use the RIGR featurizer in CLI by adding `--rigr` to train (and infer) your chemprop models. This implementation is **outdated** and currently not present in Chemprop v2. Now, RIGR is available as a choice of multi-hot atom featurization scheme. To use RIGR, add the `--multi-hot-atom-featurizer-mode RIGR` argument to your training or inference script. For notebook users, refer to our [example notebook](). 
 
-Reference:  [RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction]()
+See [rigr_home](https://github.com/akshatzalte/chemprop/tree/rigr_home) for more information.
+
+**Reference:**  [RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction]()

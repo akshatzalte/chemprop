@@ -11,7 +11,7 @@ Resonance Invariant Graph Representation (RIGR) is a featurizer implemented as p
    ```
    This sets the atom and bond feature set to be resonance invariant and applies to both non-reaction and reaction featurization. See an example bash script [here](https://github.com/akshatzalte/chemprop/blob/rigr_home/examples/hpopt_train_predict_rigr.sh). If required, the overall molecular charge descriptor can be added to the learned embedding by using `--molecule-featurizer charge`.
 
-    **Note**: Ensure consistent featurization options among train, predict, and hpopt.
+    **NOTE**: Ensure consistent featurization scheme for train, predict, and hpopt.
 
 - **For Jupyter Notebook users**: Refer to our [example notebook]() to use RIGR in a notebook environment.
 

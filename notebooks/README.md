@@ -4,7 +4,7 @@ This section contains a collection of notebooks essential to our work on develop
 
 ## Resonance SMILES Generation and Data Augmentation
 
-We provide a notebook for generating a representative set of resonance structures and their corresponding SMILES strings for radicals or closed-shell species, available [here](./resonance_generation_and_augmentation.ipynb). This includes an example of data augmentation for resonance, which can be integrated into your workflow when working with resonance-active chemical species.
+We provide a notebook (`resonance_generation_and_augmentation.ipynb`) for generating a representative set of resonance structures and their corresponding SMILES strings for radicals or closed-shell species. This includes an example of data augmentation for resonance, which can be integrated into your workflow when working with resonance-active chemical species.
 
 ## Training with RIGR
 

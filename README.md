@@ -1,7 +1,7 @@
-# Native Chemprop (baseline for comparing RIGR)
+# Native Chemprop (Baseline for Comparing RIGR)
 
-This branch is used to train the `Native` models in the paper.
+This branch is used to train the `Native` models presented in the paper.
 
-See [rigr_home](https://github.com/akshatzalte/chemprop/tree/rigr_home) for more information.
+For more details, visit RIGR's [user information page](https://github.com/akshatzalte/chemprop/tree/rigr_home).
 
-**Reference:**  [Resonance Invariant Graph Representation (RIGR) for Molecular Property Prediction]()
+**Reference:** [Resonance Invariant Graph Representation (RIGR) for Molecular Property Prediction]()

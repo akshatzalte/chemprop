@@ -4,7 +4,7 @@
 Welcome to the user information page for RIGR.  
 **60% fewer features, resonance-invariant, and delivering the same high performance!**
 
-Resonance Invariant Graph Representation (RIGR) is a featurizer implemented as part of **Chemprop v2** (available in versions 2.1.2 and above), designed to impose resonance invariance for molecular property prediction tasks.
+Resonance Invariant Graph Representation (RIGR) is a featurizer implemented as part of [**Chemprop v2**](https://github.com/chemprop/chemprop) (available in versions 2.1.2 and above), designed to impose resonance invariance for molecular property prediction tasks.
 
 - **For CLI users**: RIGR is available as a choice for the multi-hot atom featurization scheme. To use RIGR, add the following argument to your training or inference script.
    ```bash
@@ -16,7 +16,7 @@ Resonance Invariant Graph Representation (RIGR) is a featurizer implemented as p
 
 - **For Jupyter Notebook users**: Refer to our [example notebook](https://github.com/chemprop/chemprop/blob/main/examples/rigr_featurizer.ipynb) to use RIGR in a notebook environment.
 
-RIGR is introduced and discussed in our work: [RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction](). It ensures a unified graph representation of different resonance structures of the same molecule, including non-equivalent resonance forms. By using RIGR, users can avoid manually selecting a specific resonance form for molecules or radicals exhibiting resonance. If you find RIGR helpful in your research, please consider citing our [paper]().
+RIGR is introduced and discussed in our work: [RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction](https://chemrxiv.org/engage/chemrxiv/article-details/67c36c29fa469535b9803722). It ensures a unified graph representation of different resonance structures of the same molecule, including non-equivalent resonance forms. By using RIGR, users can avoid manually selecting a specific resonance form for molecules or radicals exhibiting resonance. If you find RIGR helpful in your research, please consider citing our [paper](https://chemrxiv.org/engage/chemrxiv/article-details/67c36c29fa469535b9803722).
 
 RIGR uses only the subset of atom and bond features from Chemprop that remain invariant across different resonance forms. The tables below indicate which atom and bond features are present and absent in RIGR.
 

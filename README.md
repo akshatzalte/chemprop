@@ -16,7 +16,7 @@ Resonance Invariant Graph Representation (RIGR) is a featurizer implemented as p
 
 - **For Jupyter Notebook users**: Refer to our [example notebook](https://github.com/chemprop/chemprop/blob/main/examples/rigr_featurizer.ipynb) to use RIGR in a notebook environment.
 
-RIGR is introduced and discussed in our work: [**RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction**](https://chemrxiv.org/engage/chemrxiv/article-details/67c36c29fa469535b9803722). It ensures a unified graph representation of different resonance structures of the same molecule, including non-equivalent resonance forms. By using RIGR, users can avoid manually selecting a specific resonance form for molecules or radicals exhibiting resonance. If you find RIGR helpful in your research, please consider citing our [paper](https://chemrxiv.org/engage/chemrxiv/article-details/67c36c29fa469535b9803722).
+RIGR is introduced and discussed in our work: [**RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction**](https://doi.org/10.26434/chemrxiv-2025-qgfxp). It ensures a unified graph representation of different resonance structures of the same molecule, including non-equivalent resonance forms. By using RIGR, users can avoid manually selecting a specific resonance form for molecules or radicals exhibiting resonance. If you find RIGR helpful in your research, please consider citing our [paper](https://doi.org/10.26434/chemrxiv-2025-qgfxp).
 
 RIGR uses only the subset of atom and bond features from Chemprop that remain invariant across different resonance forms. The tables below indicate which atom and bond features are present and absent in RIGR.
 
@@ -50,8 +50,8 @@ The table below provides details on which branch corresponds to specific analyse
 | Branch Name     | Purpose                                                   |
 |------------------|-----------------------------------------------------------|
 | [`rigr_home`](https://github.com/akshatzalte/chemprop/tree/rigr_home)     | Home branch with all necessary information to learn about RIGR |
-| [`rigr`](https://github.com/akshatzalte/chemprop/tree/rigr) | The branch used for training all the `rigr` models in the [paper](https://github.com/chemprop/chemprop) |
-| [`native`](https://github.com/akshatzalte/chemprop/tree/native) | The branch used for training all the `native` and `native+aug` models in the [paper](https://github.com/chemprop/chemprop) |
+| [`rigr`](https://github.com/akshatzalte/chemprop/tree/rigr) | The branch used for training all the `rigr` models in the [paper](https://doi.org/10.26434/chemrxiv-2025-qgfxp) |
+| [`native`](https://github.com/akshatzalte/chemprop/tree/native) | The branch used for training all the `native` and `native+aug` models in the [paper](https://doi.org/10.26434/chemrxiv-2025-qgfxp) |
 | [`rigr_charge`](https://github.com/akshatzalte/chemprop/tree/rigr_charge)  | Same as `rigr` but with additional molecule level charge featurizer — used for most of the [property prediction benchmarks](./benchmarks) |
 | [`rigr_charge_stereo_chiral`](https://github.com/akshatzalte/chemprop/tree/rigr_charge_stereo_chiral)  | Same as `rigr_charge` but with bond stereochemistry and atom chirality features — used for [RGD1 benchmark](./benchmarks/barrier_rgd1_cnho) |
 ---

@@ -1,0 +1,332 @@
+nohup: ignoring input
+Processing split 1 of 5
+Training model with random seed 42 (1/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 744.0594
+Epoch 2/10 | Loss: 361.0061
+Epoch 3/10 | Loss: 327.8196
+Epoch 4/10 | Loss: 310.0300
+Epoch 5/10 | Loss: 293.3471
+Epoch 6/10 | Loss: 280.8032
+Epoch 7/10 | Loss: 272.3525
+Epoch 8/10 | Loss: 264.8647
+Epoch 9/10 | Loss: 261.7705
+Epoch 10/10 | Loss: 251.5461
+Training model with random seed 117 (2/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 732.3222
+Epoch 2/10 | Loss: 356.8093
+Epoch 3/10 | Loss: 329.2160
+Epoch 4/10 | Loss: 305.9084
+Epoch 5/10 | Loss: 293.2275
+Epoch 6/10 | Loss: 279.6382
+Epoch 7/10 | Loss: 273.2744
+Epoch 8/10 | Loss: 262.9590
+Epoch 9/10 | Loss: 257.3619
+Epoch 10/10 | Loss: 252.9060
+Training model with random seed 709 (3/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 767.7458
+Epoch 2/10 | Loss: 371.2945
+Epoch 3/10 | Loss: 332.4461
+Epoch 4/10 | Loss: 310.6757
+Epoch 5/10 | Loss: 298.9537
+Epoch 6/10 | Loss: 287.2171
+Epoch 7/10 | Loss: 273.0866
+Epoch 8/10 | Loss: 267.9606
+Epoch 9/10 | Loss: 259.2672
+Epoch 10/10 | Loss: 253.2374
+Training model with random seed 1701 (4/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 768.8439
+Epoch 2/10 | Loss: 364.3587
+Epoch 3/10 | Loss: 327.3807
+Epoch 4/10 | Loss: 308.2523
+Epoch 5/10 | Loss: 293.1667
+Epoch 6/10 | Loss: 284.1062
+Epoch 7/10 | Loss: 274.1079
+Epoch 8/10 | Loss: 265.1626
+Epoch 9/10 | Loss: 259.1495
+Epoch 10/10 | Loss: 253.0928
+Training model with random seed 9001 (5/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 747.4764
+Epoch 2/10 | Loss: 362.6590
+Epoch 3/10 | Loss: 325.6003
+Epoch 4/10 | Loss: 311.1692
+Epoch 5/10 | Loss: 294.3347
+Epoch 6/10 | Loss: 281.2918
+Epoch 7/10 | Loss: 272.5505
+Epoch 8/10 | Loss: 264.2956
+Epoch 9/10 | Loss: 257.6402
+Epoch 10/10 | Loss: 252.4409
+Processing split 2 of 5
+Training model with random seed 42 (1/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 716.7788
+Epoch 2/10 | Loss: 358.9389
+Epoch 3/10 | Loss: 322.8113
+Epoch 4/10 | Loss: 303.9504
+Epoch 5/10 | Loss: 286.3465
+Epoch 6/10 | Loss: 275.8606
+Epoch 7/10 | Loss: 266.0600
+Epoch 8/10 | Loss: 257.0295
+Epoch 9/10 | Loss: 252.4475
+Epoch 10/10 | Loss: 247.0750
+Training model with random seed 117 (2/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 708.1609
+Epoch 2/10 | Loss: 347.4650
+Epoch 3/10 | Loss: 313.8204
+Epoch 4/10 | Loss: 296.0993
+Epoch 5/10 | Loss: 279.4339
+Epoch 6/10 | Loss: 270.1924
+Epoch 7/10 | Loss: 262.3968
+Epoch 8/10 | Loss: 254.3909
+Epoch 9/10 | Loss: 248.3370
+Epoch 10/10 | Loss: 244.2749
+Training model with random seed 709 (3/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 730.2950
+Epoch 2/10 | Loss: 367.8136
+Epoch 3/10 | Loss: 329.7715
+Epoch 4/10 | Loss: 308.1545
+Epoch 5/10 | Loss: 292.6051
+Epoch 6/10 | Loss: 280.7677
+Epoch 7/10 | Loss: 270.3040
+Epoch 8/10 | Loss: 264.6552
+Epoch 9/10 | Loss: 254.9370
+Epoch 10/10 | Loss: 248.3450
+Training model with random seed 1701 (4/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 716.2812
+Epoch 2/10 | Loss: 361.2336
+Epoch 3/10 | Loss: 324.9148
+Epoch 4/10 | Loss: 301.5351
+Epoch 5/10 | Loss: 285.4802
+Epoch 6/10 | Loss: 274.2245
+Epoch 7/10 | Loss: 265.2966
+Epoch 8/10 | Loss: 258.7186
+Epoch 9/10 | Loss: 252.1370
+Epoch 10/10 | Loss: 243.1053
+Training model with random seed 9001 (5/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 702.3316
+Epoch 2/10 | Loss: 348.1513
+Epoch 3/10 | Loss: 316.4713
+Epoch 4/10 | Loss: 295.8832
+Epoch 5/10 | Loss: 283.3989
+Epoch 6/10 | Loss: 271.9037
+Epoch 7/10 | Loss: 261.3512
+Epoch 8/10 | Loss: 255.0391
+Epoch 9/10 | Loss: 246.0670
+Epoch 10/10 | Loss: 243.0552
+Processing split 3 of 5
+Training model with random seed 42 (1/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 777.7108
+Epoch 2/10 | Loss: 379.0473
+Epoch 3/10 | Loss: 340.4282
+Epoch 4/10 | Loss: 316.1790
+Epoch 5/10 | Loss: 305.3880
+Epoch 6/10 | Loss: 289.9879
+Epoch 7/10 | Loss: 281.1594
+Epoch 8/10 | Loss: 271.2279
+Epoch 9/10 | Loss: 263.5695
+Epoch 10/10 | Loss: 258.2779
+Training model with random seed 117 (2/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 747.8674
+Epoch 2/10 | Loss: 360.5766
+Epoch 3/10 | Loss: 329.6618
+Epoch 4/10 | Loss: 306.3080
+Epoch 5/10 | Loss: 294.1044
+Epoch 6/10 | Loss: 281.4194
+Epoch 7/10 | Loss: 273.8504
+Epoch 8/10 | Loss: 265.8163
+Epoch 9/10 | Loss: 260.0483
+Epoch 10/10 | Loss: 253.9106
+Training model with random seed 709 (3/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 758.5947
+Epoch 2/10 | Loss: 372.7915
+Epoch 3/10 | Loss: 338.5235
+Epoch 4/10 | Loss: 313.0225
+Epoch 5/10 | Loss: 299.7083
+Epoch 6/10 | Loss: 285.3282
+Epoch 7/10 | Loss: 278.4860
+Epoch 8/10 | Loss: 268.4912
+Epoch 9/10 | Loss: 261.4000
+Epoch 10/10 | Loss: 254.9416
+Training model with random seed 1701 (4/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 776.7678
+Epoch 2/10 | Loss: 372.5230
+Epoch 3/10 | Loss: 333.6068
+Epoch 4/10 | Loss: 311.6151
+Epoch 5/10 | Loss: 297.7514
+Epoch 6/10 | Loss: 288.0409
+Epoch 7/10 | Loss: 276.7516
+Epoch 8/10 | Loss: 268.0826
+Epoch 9/10 | Loss: 264.6006
+Epoch 10/10 | Loss: 259.6741
+Training model with random seed 9001 (5/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 745.0526
+Epoch 2/10 | Loss: 366.7118
+Epoch 3/10 | Loss: 328.4634
+Epoch 4/10 | Loss: 308.2432
+Epoch 5/10 | Loss: 295.0104
+Epoch 6/10 | Loss: 284.4599
+Epoch 7/10 | Loss: 275.2488
+Epoch 8/10 | Loss: 266.3876
+Epoch 9/10 | Loss: 261.7881
+Epoch 10/10 | Loss: 256.2460
+Processing split 4 of 5
+Training model with random seed 42 (1/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 768.4968
+Epoch 2/10 | Loss: 372.5685
+Epoch 3/10 | Loss: 336.4598
+Epoch 4/10 | Loss: 313.1027
+Epoch 5/10 | Loss: 298.5513
+Epoch 6/10 | Loss: 285.7754
+Epoch 7/10 | Loss: 276.0819
+Epoch 8/10 | Loss: 266.4005
+Epoch 9/10 | Loss: 262.8834
+Epoch 10/10 | Loss: 255.9397
+Training model with random seed 117 (2/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 743.4915
+Epoch 2/10 | Loss: 351.3341
+Epoch 3/10 | Loss: 318.7205
+Epoch 4/10 | Loss: 299.1437
+Epoch 5/10 | Loss: 283.9701
+Epoch 6/10 | Loss: 271.5270
+Epoch 7/10 | Loss: 264.3701
+Epoch 8/10 | Loss: 258.5850
+Epoch 9/10 | Loss: 249.1698
+Epoch 10/10 | Loss: 247.3191
+Training model with random seed 709 (3/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 744.9762
+Epoch 2/10 | Loss: 362.1940
+Epoch 3/10 | Loss: 327.3749
+Epoch 4/10 | Loss: 302.6288
+Epoch 5/10 | Loss: 289.7573
+Epoch 6/10 | Loss: 279.7075
+Epoch 7/10 | Loss: 266.7212
+Epoch 8/10 | Loss: 261.2486
+Epoch 9/10 | Loss: 250.8635
+Epoch 10/10 | Loss: 249.5148
+Training model with random seed 1701 (4/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 776.1509
+Epoch 2/10 | Loss: 374.7974
+Epoch 3/10 | Loss: 332.3751
+Epoch 4/10 | Loss: 313.6644
+Epoch 5/10 | Loss: 296.5635
+Epoch 6/10 | Loss: 282.6430
+Epoch 7/10 | Loss: 274.4123
+Epoch 8/10 | Loss: 267.9844
+Epoch 9/10 | Loss: 257.9016
+Epoch 10/10 | Loss: 254.7092
+Training model with random seed 9001 (5/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 729.3123
+Epoch 2/10 | Loss: 356.5937
+Epoch 3/10 | Loss: 320.0414
+Epoch 4/10 | Loss: 300.0423
+Epoch 5/10 | Loss: 285.6835
+Epoch 6/10 | Loss: 278.6374
+Epoch 7/10 | Loss: 264.4156
+Epoch 8/10 | Loss: 258.2053
+Epoch 9/10 | Loss: 253.4298
+Epoch 10/10 | Loss: 249.8258
+Processing split 5 of 5
+Training model with random seed 42 (1/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 766.6058
+Epoch 2/10 | Loss: 371.1638
+Epoch 3/10 | Loss: 333.1202
+Epoch 4/10 | Loss: 316.1095
+Epoch 5/10 | Loss: 297.9187
+Epoch 6/10 | Loss: 289.5837
+Epoch 7/10 | Loss: 280.3091
+Epoch 8/10 | Loss: 271.4064
+Epoch 9/10 | Loss: 263.1561
+Epoch 10/10 | Loss: 258.3150
+Training model with random seed 117 (2/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 758.2907
+Epoch 2/10 | Loss: 369.0744
+Epoch 3/10 | Loss: 333.7681
+Epoch 4/10 | Loss: 313.1875
+Epoch 5/10 | Loss: 296.3221
+Epoch 6/10 | Loss: 289.2185
+Epoch 7/10 | Loss: 276.6645
+Epoch 8/10 | Loss: 273.3082
+Epoch 9/10 | Loss: 261.2771
+Epoch 10/10 | Loss: 256.0909
+Training model with random seed 709 (3/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 772.5412
+Epoch 2/10 | Loss: 373.9460
+Epoch 3/10 | Loss: 340.0084
+Epoch 4/10 | Loss: 318.6860
+Epoch 5/10 | Loss: 302.4787
+Epoch 6/10 | Loss: 289.5079
+Epoch 7/10 | Loss: 279.0477
+Epoch 8/10 | Loss: 273.8507
+Epoch 9/10 | Loss: 264.7375
+Epoch 10/10 | Loss: 259.7102
+Training model with random seed 1701 (4/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 750.8453
+Epoch 2/10 | Loss: 370.3504
+Epoch 3/10 | Loss: 332.8063
+Epoch 4/10 | Loss: 310.3895
+Epoch 5/10 | Loss: 299.2037
+Epoch 6/10 | Loss: 285.5411
+Epoch 7/10 | Loss: 276.0928
+Epoch 8/10 | Loss: 269.0816
+Epoch 9/10 | Loss: 264.3227
+Epoch 10/10 | Loss: 256.1839
+Training model with random seed 9001 (5/5)
+Some weights of RobertaModel were not initialized from the model checkpoint at DeepChem/ChemBERTa-77M-MTR and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/10 | Loss: 755.5064
+Epoch 2/10 | Loss: 367.6960
+Epoch 3/10 | Loss: 332.2903
+Epoch 4/10 | Loss: 314.9958
+Epoch 5/10 | Loss: 297.3328
+Epoch 6/10 | Loss: 288.5856
+Epoch 7/10 | Loss: 277.3068
+Epoch 8/10 | Loss: 269.3269
+Epoch 9/10 | Loss: 263.3658
+Epoch 10/10 | Loss: 258.8976
+Evaluation completed. Results saved to output/summary_chemberta.md

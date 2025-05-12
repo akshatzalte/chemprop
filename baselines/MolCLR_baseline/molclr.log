@@ -1,0 +1,689 @@
+nohup: ignoring input
+Processing split 1 of 5
+Running on: cuda:1
+Loaded pre-trained model with success.
+Training model with random seed 42 (1/5)
+Training model with random seed 42
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 25.5869
+Epoch 1: New best validation RMSE: 23.6340
+Epoch 2: New best validation RMSE: 20.0198
+Epoch 4: New best validation RMSE: 19.7070
+Epoch 6: New best validation RMSE: 19.0143
+Epoch 9: New best validation RMSE: 18.5965
+Epoch 10: New best validation RMSE: 17.5694
+Epoch 14: New best validation RMSE: 16.8309
+Epoch 20: New best validation RMSE: 16.4073
+Epoch 21: New best validation RMSE: 16.0650
+Epoch 22: New best validation RMSE: 15.7712
+Epoch 27: New best validation RMSE: 15.4718
+Epoch 29: New best validation RMSE: 15.0811
+Epoch 33: New best validation RMSE: 14.9565
+Epoch 37: New best validation RMSE: 14.6254
+Epoch 39: New best validation RMSE: 14.6170
+Epoch 41: New best validation RMSE: 14.5047
+Epoch 42: New best validation RMSE: 14.3191
+Epoch 49: New best validation RMSE: 14.0991
+Training model with random seed 117 (2/5)
+Training model with random seed 117
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 26.2253
+Epoch 1: New best validation RMSE: 23.8690
+Epoch 2: New best validation RMSE: 22.0895
+Epoch 3: New best validation RMSE: 19.6256
+Epoch 4: New best validation RMSE: 19.5898
+Epoch 7: New best validation RMSE: 18.3449
+Epoch 11: New best validation RMSE: 17.4576
+Epoch 18: New best validation RMSE: 17.3896
+Epoch 19: New best validation RMSE: 16.6901
+Epoch 24: New best validation RMSE: 16.1625
+Epoch 27: New best validation RMSE: 16.0420
+Epoch 30: New best validation RMSE: 15.9037
+Epoch 33: New best validation RMSE: 15.8772
+Epoch 35: New best validation RMSE: 15.8180
+Epoch 36: New best validation RMSE: 14.9461
+Epoch 39: New best validation RMSE: 14.8607
+Epoch 41: New best validation RMSE: 14.5665
+Epoch 44: New best validation RMSE: 14.3930
+Training model with random seed 709 (3/5)
+Training model with random seed 709
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 28.1154
+Epoch 1: New best validation RMSE: 23.8958
+Epoch 2: New best validation RMSE: 20.2718
+Epoch 3: New best validation RMSE: 19.5661
+Epoch 4: New best validation RMSE: 18.5744
+Epoch 5: New best validation RMSE: 18.3939
+Epoch 6: New best validation RMSE: 18.3691
+Epoch 10: New best validation RMSE: 17.4782
+Epoch 12: New best validation RMSE: 17.1097
+Epoch 14: New best validation RMSE: 17.0832
+Epoch 15: New best validation RMSE: 16.7401
+Epoch 17: New best validation RMSE: 16.4980
+Epoch 19: New best validation RMSE: 16.1850
+Epoch 23: New best validation RMSE: 15.7213
+Epoch 30: New best validation RMSE: 14.9979
+Epoch 32: New best validation RMSE: 14.9398
+Epoch 37: New best validation RMSE: 14.4149
+Epoch 39: New best validation RMSE: 14.3188
+Epoch 47: New best validation RMSE: 14.0995
+Epoch 48: New best validation RMSE: 13.7787
+Training model with random seed 1701 (4/5)
+Training model with random seed 1701
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 24.9881
+Epoch 1: New best validation RMSE: 21.8176
+Epoch 5: New best validation RMSE: 20.7576
+Epoch 6: New best validation RMSE: 20.2388
+Epoch 7: New best validation RMSE: 18.4590
+Epoch 10: New best validation RMSE: 17.9690
+Epoch 12: New best validation RMSE: 17.5456
+Epoch 13: New best validation RMSE: 17.2220
+Epoch 15: New best validation RMSE: 16.5744
+Epoch 20: New best validation RMSE: 15.8499
+Epoch 31: New best validation RMSE: 14.7238
+Epoch 39: New best validation RMSE: 14.4287
+Epoch 48: New best validation RMSE: 13.9927
+Training model with random seed 9001 (5/5)
+Training model with random seed 9001
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 26.1666
+Epoch 1: New best validation RMSE: 23.0350
+Epoch 2: New best validation RMSE: 21.1477
+Epoch 4: New best validation RMSE: 20.8404
+Epoch 5: New best validation RMSE: 19.1817
+Epoch 6: New best validation RMSE: 19.0176
+Epoch 9: New best validation RMSE: 18.5188
+Epoch 10: New best validation RMSE: 18.2101
+Epoch 11: New best validation RMSE: 17.9991
+Epoch 14: New best validation RMSE: 17.9161
+Epoch 16: New best validation RMSE: 16.4623
+Epoch 23: New best validation RMSE: 15.8968
+Epoch 29: New best validation RMSE: 15.8597
+Epoch 32: New best validation RMSE: 15.5853
+Epoch 33: New best validation RMSE: 15.0329
+Epoch 34: New best validation RMSE: 14.9646
+Epoch 39: New best validation RMSE: 14.8543
+Epoch 41: New best validation RMSE: 14.6579
+Epoch 43: New best validation RMSE: 14.3583
+Epoch 44: New best validation RMSE: 14.1837
+Epoch 49: New best validation RMSE: 13.9712
+Processing split 2 of 5
+Running on: cuda:1
+Loaded pre-trained model with success.
+Training model with random seed 42 (1/5)
+Training model with random seed 42
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 32.9047
+Epoch 1: New best validation RMSE: 30.2736
+Epoch 2: New best validation RMSE: 27.0073
+Epoch 3: New best validation RMSE: 24.4758
+Epoch 4: New best validation RMSE: 23.2666
+Epoch 5: New best validation RMSE: 21.5744
+Epoch 11: New best validation RMSE: 19.2861
+Epoch 12: New best validation RMSE: 19.0761
+Epoch 16: New best validation RMSE: 18.3908
+Epoch 20: New best validation RMSE: 17.6289
+Epoch 24: New best validation RMSE: 17.5271
+Epoch 28: New best validation RMSE: 16.8190
+Epoch 31: New best validation RMSE: 16.4158
+Epoch 39: New best validation RMSE: 15.3939
+Epoch 46: New best validation RMSE: 14.6981
+Training model with random seed 117 (2/5)
+Training model with random seed 117
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 32.5346
+Epoch 1: New best validation RMSE: 29.5129
+Epoch 3: New best validation RMSE: 27.1127
+Epoch 4: New best validation RMSE: 25.5247
+Epoch 5: New best validation RMSE: 25.1081
+Epoch 6: New best validation RMSE: 22.8868
+Epoch 8: New best validation RMSE: 20.7514
+Epoch 9: New best validation RMSE: 20.6745
+Epoch 17: New best validation RMSE: 20.1240
+Epoch 20: New best validation RMSE: 17.6302
+Epoch 32: New best validation RMSE: 16.8029
+Epoch 37: New best validation RMSE: 16.5905
+Epoch 39: New best validation RMSE: 16.4197
+Epoch 41: New best validation RMSE: 15.8414
+Epoch 43: New best validation RMSE: 15.7716
+Epoch 44: New best validation RMSE: 15.3532
+Epoch 45: New best validation RMSE: 15.2518
+Epoch 48: New best validation RMSE: 15.2280
+Training model with random seed 709 (3/5)
+Training model with random seed 709
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 34.4786
+Epoch 1: New best validation RMSE: 28.6645
+Epoch 2: New best validation RMSE: 27.1470
+Epoch 3: New best validation RMSE: 26.2167
+Epoch 5: New best validation RMSE: 22.6955
+Epoch 6: New best validation RMSE: 21.2342
+Epoch 8: New best validation RMSE: 21.0534
+Epoch 10: New best validation RMSE: 20.4466
+Epoch 11: New best validation RMSE: 20.2661
+Epoch 12: New best validation RMSE: 19.2080
+Epoch 16: New best validation RMSE: 19.1050
+Epoch 18: New best validation RMSE: 18.6918
+Epoch 22: New best validation RMSE: 18.1472
+Epoch 25: New best validation RMSE: 17.0197
+Epoch 26: New best validation RMSE: 16.8437
+Epoch 28: New best validation RMSE: 16.1819
+Epoch 32: New best validation RMSE: 16.1353
+Epoch 33: New best validation RMSE: 15.9164
+Epoch 37: New best validation RMSE: 15.9127
+Epoch 45: New best validation RMSE: 14.6892
+Training model with random seed 1701 (4/5)
+Training model with random seed 1701
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 31.5183
+Epoch 1: New best validation RMSE: 27.6850
+Epoch 3: New best validation RMSE: 26.3061
+Epoch 4: New best validation RMSE: 23.2405
+Epoch 5: New best validation RMSE: 22.9343
+Epoch 6: New best validation RMSE: 22.0586
+Epoch 8: New best validation RMSE: 20.1376
+Epoch 11: New best validation RMSE: 19.5607
+Epoch 13: New best validation RMSE: 18.8998
+Epoch 21: New best validation RMSE: 18.4219
+Epoch 22: New best validation RMSE: 18.1963
+Epoch 24: New best validation RMSE: 17.7394
+Epoch 25: New best validation RMSE: 17.1706
+Epoch 26: New best validation RMSE: 17.1448
+Epoch 28: New best validation RMSE: 16.8359
+Epoch 29: New best validation RMSE: 16.4231
+Epoch 37: New best validation RMSE: 15.9980
+Epoch 38: New best validation RMSE: 15.6577
+Epoch 40: New best validation RMSE: 15.5565
+Epoch 41: New best validation RMSE: 15.2518
+Epoch 43: New best validation RMSE: 14.6644
+Epoch 49: New best validation RMSE: 14.5007
+Training model with random seed 9001 (5/5)
+Training model with random seed 9001
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 31.8130
+Epoch 1: New best validation RMSE: 29.1965
+Epoch 2: New best validation RMSE: 25.3956
+Epoch 3: New best validation RMSE: 24.9989
+Epoch 4: New best validation RMSE: 23.2461
+Epoch 6: New best validation RMSE: 22.2366
+Epoch 8: New best validation RMSE: 19.7930
+Epoch 11: New best validation RMSE: 18.6981
+Epoch 25: New best validation RMSE: 17.5835
+Epoch 28: New best validation RMSE: 17.1871
+Epoch 29: New best validation RMSE: 16.8994
+Epoch 32: New best validation RMSE: 16.0895
+Epoch 33: New best validation RMSE: 15.6095
+Epoch 40: New best validation RMSE: 15.3761
+Epoch 45: New best validation RMSE: 14.8803
+Processing split 3 of 5
+Running on: cuda:1
+Loaded pre-trained model with success.
+Training model with random seed 42 (1/5)
+Training model with random seed 42
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 32.9131
+Epoch 1: New best validation RMSE: 28.2474
+Epoch 3: New best validation RMSE: 27.2598
+Epoch 4: New best validation RMSE: 24.8870
+Epoch 5: New best validation RMSE: 23.7293
+Epoch 9: New best validation RMSE: 22.3107
+Epoch 13: New best validation RMSE: 21.8721
+Epoch 14: New best validation RMSE: 21.3001
+Epoch 16: New best validation RMSE: 20.6019
+Epoch 17: New best validation RMSE: 20.4320
+Epoch 19: New best validation RMSE: 18.9709
+Epoch 25: New best validation RMSE: 18.4862
+Epoch 27: New best validation RMSE: 17.6362
+Epoch 28: New best validation RMSE: 17.4734
+Epoch 30: New best validation RMSE: 16.9520
+Epoch 32: New best validation RMSE: 16.8308
+Epoch 33: New best validation RMSE: 16.6781
+Epoch 35: New best validation RMSE: 15.3975
+Epoch 43: New best validation RMSE: 14.6404
+Training model with random seed 117 (2/5)
+Training model with random seed 117
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 32.7113
+Epoch 1: New best validation RMSE: 29.0434
+Epoch 2: New best validation RMSE: 26.5490
+Epoch 3: New best validation RMSE: 26.1903
+Epoch 4: New best validation RMSE: 24.8583
+Epoch 5: New best validation RMSE: 23.6019
+Epoch 7: New best validation RMSE: 23.1553
+Epoch 8: New best validation RMSE: 22.8180
+Epoch 10: New best validation RMSE: 21.3753
+Epoch 14: New best validation RMSE: 21.1698
+Epoch 15: New best validation RMSE: 19.7997
+Epoch 16: New best validation RMSE: 19.1681
+Epoch 21: New best validation RMSE: 19.1680
+Epoch 24: New best validation RMSE: 18.4398
+Epoch 25: New best validation RMSE: 17.2721
+Epoch 28: New best validation RMSE: 17.2075
+Epoch 29: New best validation RMSE: 16.9804
+Epoch 31: New best validation RMSE: 16.4630
+Epoch 33: New best validation RMSE: 16.2222
+Epoch 38: New best validation RMSE: 16.0325
+Epoch 41: New best validation RMSE: 15.8113
+Epoch 42: New best validation RMSE: 15.3205
+Epoch 45: New best validation RMSE: 14.9607
+Epoch 49: New best validation RMSE: 14.7577
+Training model with random seed 709 (3/5)
+Training model with random seed 709
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 34.8141
+Epoch 1: New best validation RMSE: 28.2442
+Epoch 2: New best validation RMSE: 28.0534
+Epoch 3: New best validation RMSE: 25.0235
+Epoch 5: New best validation RMSE: 24.2628
+Epoch 6: New best validation RMSE: 23.7637
+Epoch 10: New best validation RMSE: 23.1891
+Epoch 11: New best validation RMSE: 21.5771
+Epoch 13: New best validation RMSE: 20.8403
+Epoch 16: New best validation RMSE: 20.3453
+Epoch 19: New best validation RMSE: 18.4922
+Epoch 24: New best validation RMSE: 17.1931
+Epoch 26: New best validation RMSE: 16.6549
+Epoch 28: New best validation RMSE: 16.2660
+Epoch 37: New best validation RMSE: 15.2726
+Epoch 40: New best validation RMSE: 15.1688
+Epoch 42: New best validation RMSE: 15.1006
+Epoch 45: New best validation RMSE: 14.7623
+Training model with random seed 1701 (4/5)
+Training model with random seed 1701
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 33.7349
+Epoch 1: New best validation RMSE: 28.5905
+Epoch 2: New best validation RMSE: 26.6339
+Epoch 3: New best validation RMSE: 26.5913
+Epoch 4: New best validation RMSE: 24.8321
+Epoch 5: New best validation RMSE: 24.3157
+Epoch 7: New best validation RMSE: 23.6346
+Epoch 9: New best validation RMSE: 23.5964
+Epoch 11: New best validation RMSE: 22.1345
+Epoch 12: New best validation RMSE: 20.8751
+Epoch 14: New best validation RMSE: 20.8470
+Epoch 16: New best validation RMSE: 20.7049
+Epoch 17: New best validation RMSE: 19.6785
+Epoch 20: New best validation RMSE: 19.3134
+Epoch 22: New best validation RMSE: 19.2259
+Epoch 25: New best validation RMSE: 19.1168
+Epoch 26: New best validation RMSE: 17.7373
+Epoch 27: New best validation RMSE: 17.6212
+Epoch 29: New best validation RMSE: 16.9340
+Epoch 31: New best validation RMSE: 16.6000
+Epoch 35: New best validation RMSE: 15.9455
+Epoch 36: New best validation RMSE: 15.9118
+Epoch 38: New best validation RMSE: 15.5915
+Epoch 40: New best validation RMSE: 15.2290
+Epoch 43: New best validation RMSE: 15.1648
+Epoch 47: New best validation RMSE: 14.7761
+Training model with random seed 9001 (5/5)
+Training model with random seed 9001
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 32.9112
+Epoch 1: New best validation RMSE: 28.3788
+Epoch 3: New best validation RMSE: 26.9927
+Epoch 4: New best validation RMSE: 26.9828
+Epoch 5: New best validation RMSE: 23.7970
+Epoch 6: New best validation RMSE: 23.5939
+Epoch 10: New best validation RMSE: 22.7411
+Epoch 13: New best validation RMSE: 22.0821
+Epoch 14: New best validation RMSE: 21.6832
+Epoch 15: New best validation RMSE: 21.5724
+Epoch 16: New best validation RMSE: 21.2610
+Epoch 19: New best validation RMSE: 20.7273
+Epoch 21: New best validation RMSE: 20.4876
+Epoch 23: New best validation RMSE: 19.4299
+Epoch 24: New best validation RMSE: 18.2987
+Epoch 26: New best validation RMSE: 17.2440
+Epoch 29: New best validation RMSE: 16.8984
+Epoch 33: New best validation RMSE: 16.6273
+Epoch 37: New best validation RMSE: 15.6539
+Epoch 39: New best validation RMSE: 14.9494
+Epoch 47: New best validation RMSE: 14.8264
+Processing split 4 of 5
+Running on: cuda:1
+Loaded pre-trained model with success.
+Training model with random seed 42 (1/5)
+Training model with random seed 42
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 28.0043
+Epoch 1: New best validation RMSE: 24.7504
+Epoch 2: New best validation RMSE: 23.5272
+Epoch 3: New best validation RMSE: 23.0191
+Epoch 4: New best validation RMSE: 22.4874
+Epoch 5: New best validation RMSE: 21.2716
+Epoch 6: New best validation RMSE: 20.6798
+Epoch 8: New best validation RMSE: 20.3435
+Epoch 9: New best validation RMSE: 19.1233
+Epoch 10: New best validation RMSE: 18.8451
+Epoch 13: New best validation RMSE: 18.3115
+Epoch 14: New best validation RMSE: 18.2413
+Epoch 16: New best validation RMSE: 17.8658
+Epoch 20: New best validation RMSE: 17.2170
+Epoch 25: New best validation RMSE: 16.7186
+Epoch 26: New best validation RMSE: 16.4463
+Epoch 28: New best validation RMSE: 16.1815
+Epoch 30: New best validation RMSE: 15.7992
+Epoch 32: New best validation RMSE: 15.4999
+Epoch 36: New best validation RMSE: 15.4993
+Epoch 40: New best validation RMSE: 14.6567
+Epoch 45: New best validation RMSE: 14.1667
+Training model with random seed 117 (2/5)
+Training model with random seed 117
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 28.6028
+Epoch 1: New best validation RMSE: 24.4514
+Epoch 2: New best validation RMSE: 23.5443
+Epoch 3: New best validation RMSE: 22.7652
+Epoch 4: New best validation RMSE: 22.5619
+Epoch 5: New best validation RMSE: 22.0708
+Epoch 6: New best validation RMSE: 20.2684
+Epoch 9: New best validation RMSE: 19.4913
+Epoch 11: New best validation RMSE: 18.9057
+Epoch 12: New best validation RMSE: 18.1919
+Epoch 16: New best validation RMSE: 17.9915
+Epoch 19: New best validation RMSE: 17.3124
+Epoch 21: New best validation RMSE: 16.9491
+Epoch 24: New best validation RMSE: 16.8819
+Epoch 25: New best validation RMSE: 16.6285
+Epoch 26: New best validation RMSE: 16.4705
+Epoch 29: New best validation RMSE: 15.7854
+Epoch 34: New best validation RMSE: 15.4025
+Epoch 36: New best validation RMSE: 14.9178
+Epoch 38: New best validation RMSE: 14.6919
+Epoch 47: New best validation RMSE: 14.6803
+Epoch 48: New best validation RMSE: 14.2119
+Training model with random seed 709 (3/5)
+Training model with random seed 709
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 27.7589
+Epoch 1: New best validation RMSE: 25.1627
+Epoch 3: New best validation RMSE: 21.9448
+Epoch 4: New best validation RMSE: 21.2738
+Epoch 6: New best validation RMSE: 20.9151
+Epoch 7: New best validation RMSE: 20.4337
+Epoch 10: New best validation RMSE: 19.8200
+Epoch 11: New best validation RMSE: 18.7022
+Epoch 15: New best validation RMSE: 18.3877
+Epoch 16: New best validation RMSE: 18.1818
+Epoch 17: New best validation RMSE: 17.9890
+Epoch 19: New best validation RMSE: 17.9552
+Epoch 21: New best validation RMSE: 17.2045
+Epoch 23: New best validation RMSE: 16.7693
+Epoch 25: New best validation RMSE: 16.6607
+Epoch 27: New best validation RMSE: 16.5714
+Epoch 28: New best validation RMSE: 16.3142
+Epoch 31: New best validation RMSE: 16.3105
+Epoch 32: New best validation RMSE: 16.1800
+Epoch 36: New best validation RMSE: 15.5902
+Epoch 40: New best validation RMSE: 15.2180
+Epoch 44: New best validation RMSE: 15.2036
+Epoch 45: New best validation RMSE: 15.0286
+Epoch 46: New best validation RMSE: 14.5158
+Epoch 49: New best validation RMSE: 14.5136
+Training model with random seed 1701 (4/5)
+Training model with random seed 1701
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 28.4000
+Epoch 1: New best validation RMSE: 24.7451
+Epoch 2: New best validation RMSE: 24.1102
+Epoch 3: New best validation RMSE: 23.9989
+Epoch 4: New best validation RMSE: 21.6343
+Epoch 6: New best validation RMSE: 20.4577
+Epoch 8: New best validation RMSE: 20.3395
+Epoch 9: New best validation RMSE: 19.7399
+Epoch 12: New best validation RMSE: 18.8400
+Epoch 13: New best validation RMSE: 18.5587
+Epoch 15: New best validation RMSE: 17.9596
+Epoch 16: New best validation RMSE: 17.7022
+Epoch 18: New best validation RMSE: 17.1316
+Epoch 22: New best validation RMSE: 16.9044
+Epoch 23: New best validation RMSE: 16.2911
+Epoch 28: New best validation RMSE: 16.0200
+Epoch 31: New best validation RMSE: 15.7820
+Epoch 35: New best validation RMSE: 15.5703
+Epoch 37: New best validation RMSE: 15.4829
+Epoch 38: New best validation RMSE: 14.8495
+Epoch 40: New best validation RMSE: 14.8223
+Epoch 42: New best validation RMSE: 14.6506
+Epoch 46: New best validation RMSE: 14.0053
+Training model with random seed 9001 (5/5)
+Training model with random seed 9001
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 29.1416
+Epoch 1: New best validation RMSE: 27.0778
+Epoch 2: New best validation RMSE: 23.4266
+Epoch 4: New best validation RMSE: 22.5917
+Epoch 5: New best validation RMSE: 21.8368
+Epoch 6: New best validation RMSE: 20.8462
+Epoch 7: New best validation RMSE: 19.9952
+Epoch 8: New best validation RMSE: 19.8669
+Epoch 9: New best validation RMSE: 19.4771
+Epoch 11: New best validation RMSE: 18.9399
+Epoch 13: New best validation RMSE: 18.4057
+Epoch 15: New best validation RMSE: 18.0924
+Epoch 16: New best validation RMSE: 17.8020
+Epoch 20: New best validation RMSE: 17.5233
+Epoch 23: New best validation RMSE: 16.9177
+Epoch 25: New best validation RMSE: 16.2015
+Epoch 30: New best validation RMSE: 15.4752
+Epoch 37: New best validation RMSE: 15.3376
+Epoch 46: New best validation RMSE: 14.4705
+Processing split 5 of 5
+Running on: cuda:1
+Loaded pre-trained model with success.
+Training model with random seed 42 (1/5)
+Training model with random seed 42
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 26.3907
+Epoch 1: New best validation RMSE: 23.9044
+Epoch 2: New best validation RMSE: 21.2632
+Epoch 3: New best validation RMSE: 19.4972
+Epoch 4: New best validation RMSE: 18.7269
+Epoch 5: New best validation RMSE: 18.6538
+Epoch 7: New best validation RMSE: 17.9413
+Epoch 8: New best validation RMSE: 17.7226
+Epoch 12: New best validation RMSE: 16.8849
+Epoch 16: New best validation RMSE: 16.6078
+Epoch 17: New best validation RMSE: 15.6799
+Epoch 19: New best validation RMSE: 15.5435
+Epoch 23: New best validation RMSE: 15.1655
+Epoch 24: New best validation RMSE: 14.7478
+Epoch 29: New best validation RMSE: 14.6173
+Epoch 30: New best validation RMSE: 14.1825
+Epoch 31: New best validation RMSE: 13.9084
+Epoch 38: New best validation RMSE: 13.8609
+Epoch 39: New best validation RMSE: 13.5315
+Epoch 43: New best validation RMSE: 13.3955
+Epoch 45: New best validation RMSE: 12.9509
+Epoch 49: New best validation RMSE: 12.8510
+Training model with random seed 117 (2/5)
+Training model with random seed 117
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 30.7571
+Epoch 1: New best validation RMSE: 23.1332
+Epoch 2: New best validation RMSE: 20.8761
+Epoch 3: New best validation RMSE: 20.2486
+Epoch 4: New best validation RMSE: 19.2095
+Epoch 5: New best validation RMSE: 18.6052
+Epoch 7: New best validation RMSE: 17.2898
+Epoch 10: New best validation RMSE: 17.0632
+Epoch 14: New best validation RMSE: 16.3722
+Epoch 15: New best validation RMSE: 16.1476
+Epoch 18: New best validation RMSE: 15.6116
+Epoch 22: New best validation RMSE: 14.9354
+Epoch 26: New best validation RMSE: 14.5043
+Epoch 28: New best validation RMSE: 14.0761
+Epoch 32: New best validation RMSE: 13.7822
+Epoch 34: New best validation RMSE: 13.5988
+Epoch 41: New best validation RMSE: 13.4548
+Epoch 42: New best validation RMSE: 13.1565
+Epoch 43: New best validation RMSE: 13.0726
+Epoch 46: New best validation RMSE: 12.7690
+Epoch 48: New best validation RMSE: 12.6627
+Training model with random seed 709 (3/5)
+Training model with random seed 709
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 27.0633
+Epoch 1: New best validation RMSE: 25.1977
+Epoch 2: New best validation RMSE: 21.5759
+Epoch 3: New best validation RMSE: 20.2140
+Epoch 4: New best validation RMSE: 18.9818
+Epoch 7: New best validation RMSE: 17.3341
+Epoch 8: New best validation RMSE: 17.1969
+Epoch 10: New best validation RMSE: 16.8644
+Epoch 13: New best validation RMSE: 16.1210
+Epoch 16: New best validation RMSE: 15.8597
+Epoch 20: New best validation RMSE: 15.0876
+Epoch 22: New best validation RMSE: 15.0268
+Epoch 24: New best validation RMSE: 14.6989
+Epoch 30: New best validation RMSE: 13.6564
+Epoch 36: New best validation RMSE: 13.3231
+Epoch 40: New best validation RMSE: 13.1958
+Epoch 43: New best validation RMSE: 13.1286
+Epoch 45: New best validation RMSE: 12.6616
+Epoch 49: New best validation RMSE: 12.4500
+Training model with random seed 1701 (4/5)
+Training model with random seed 1701
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 29.7604
+Epoch 1: New best validation RMSE: 23.6219
+Epoch 2: New best validation RMSE: 21.2138
+Epoch 3: New best validation RMSE: 19.1266
+Epoch 4: New best validation RMSE: 18.9355
+Epoch 7: New best validation RMSE: 18.8525
+Epoch 9: New best validation RMSE: 17.2218
+Epoch 12: New best validation RMSE: 16.8565
+Epoch 16: New best validation RMSE: 16.2146
+Epoch 17: New best validation RMSE: 15.6111
+Epoch 23: New best validation RMSE: 15.3441
+Epoch 30: New best validation RMSE: 14.1985
+Epoch 31: New best validation RMSE: 13.8915
+Epoch 35: New best validation RMSE: 13.1454
+Epoch 43: New best validation RMSE: 12.8921
+Epoch 48: New best validation RMSE: 12.7795
+Epoch 49: New best validation RMSE: 12.6140
+Training model with random seed 9001 (5/5)
+Training model with random seed 9001
+Loaded pre-trained model with success.
+pred_head.0.weight True
+pred_head.0.bias True
+pred_head.2.weight True
+pred_head.2.bias True
+Epoch 0: New best validation RMSE: 27.3144
+Epoch 1: New best validation RMSE: 23.2080
+Epoch 2: New best validation RMSE: 21.2156
+Epoch 4: New best validation RMSE: 19.6605
+Epoch 5: New best validation RMSE: 18.9160
+Epoch 7: New best validation RMSE: 17.3592
+Epoch 10: New best validation RMSE: 16.4618
+Epoch 17: New best validation RMSE: 16.2890
+Epoch 18: New best validation RMSE: 16.1724
+Epoch 19: New best validation RMSE: 15.9141
+Epoch 24: New best validation RMSE: 15.5633
+Epoch 26: New best validation RMSE: 14.7206
+Epoch 28: New best validation RMSE: 14.6311
+Epoch 30: New best validation RMSE: 14.1193
+Epoch 33: New best validation RMSE: 13.7240
+Epoch 39: New best validation RMSE: 13.5970
+Epoch 44: New best validation RMSE: 13.5228
+Epoch 46: New best validation RMSE: 13.4320
+Evaluation completed. Results saved to output/summary_molclr.md

@@ -1,5 +1,6 @@
 ![ChemProp Logo](images/rigr_logo.svg)
 # RIGR
+[![DOI](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--qgfxp-blue.svg)](https://doi.org/10.26434/chemrxiv-2025-qgfxp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14942335.svg)](https://doi.org/10.5281/zenodo.14942335)
 

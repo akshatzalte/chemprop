@@ -2,7 +2,7 @@
 
 [![DOI](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--qgfxp-blue.svg)](https://doi.org/10.26434/chemrxiv-2025-qgfxp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14942335.svg)](https://doi.org/10.5281/zenodo.14942335)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14942334.svg)](https://doi.org/10.5281/zenodo.14942334)
 
 Welcome to the user information page for RIGR.  
 **60% fewer features, resonance-invariant, and delivering the same high performance!**
@@ -20,6 +20,8 @@ RIGR is introduced and discussed in our work: [**RIGR: Resonance Invariant Graph
     **NOTE**: Ensure consistent featurization scheme for train, predict, and hpopt.
 
 - **For Jupyter Notebook users**: Refer to our [example notebook](https://github.com/chemprop/chemprop/blob/main/examples/rigr_featurizer.ipynb) to use RIGR in a notebook environment.
+
+## RIGR Featurizer
 
 RIGR ensures a unified graph representation of different resonance structures of the same molecule, including non-equivalent resonance forms. By using RIGR, users can avoid manually selecting a specific resonance form for molecules or radicals exhibiting resonance. If you find RIGR helpful in your research, please cite our [paper](https://doi.org/10.26434/chemrxiv-2025-qgfxp).
 

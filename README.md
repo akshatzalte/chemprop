@@ -21,7 +21,7 @@ RIGR is introduced and discussed in our work: [**RIGR: Resonance Invariant Graph
 
 - **For Jupyter Notebook users**: Refer to our [example notebook](https://github.com/chemprop/chemprop/blob/main/examples/rigr_featurizer.ipynb) to use RIGR in a notebook environment.
 
-RIGR ensures a unified graph representation of different resonance structures of the same molecule, including non-equivalent resonance forms. By using RIGR, users can avoid manually selecting a specific resonance form for molecules or radicals exhibiting resonance. If you find RIGR helpful in your research, please consider citing our [paper](https://doi.org/10.26434/chemrxiv-2025-qgfxp).
+RIGR ensures a unified graph representation of different resonance structures of the same molecule, including non-equivalent resonance forms. By using RIGR, users can avoid manually selecting a specific resonance form for molecules or radicals exhibiting resonance. If you find RIGR helpful in your research, please cite our [paper](https://doi.org/10.26434/chemrxiv-2025-qgfxp).
 
 RIGR uses only the subset of atom and bond features from Chemprop that remain invariant across different resonance forms. The tables below indicate which atom and bond features are present and absent in RIGR.
 
@@ -74,3 +74,4 @@ Relevant citations if this work is useful to you:
   publisher = {ChemXiv},
   year = {2025},
 }
+```

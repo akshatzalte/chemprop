@@ -1,6 +1,7 @@
 ![ChemProp Logo](images/rigr_logo.svg)
 # RIGR
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14942335.svg)](https://doi.org/10.5281/zenodo.14942335)
 
 Welcome to the user information page for RIGR.  
 **60% fewer features, resonance-invariant, and delivering the same high performance!**

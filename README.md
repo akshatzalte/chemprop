@@ -1,5 +1,5 @@
-![ChemProp Logo](images/rigr_logo.svg)
-# RIGR
+# RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction
+
 [![DOI](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--qgfxp-blue.svg)](https://doi.org/10.26434/chemrxiv-2025-qgfxp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14942335.svg)](https://doi.org/10.5281/zenodo.14942335)
@@ -9,7 +9,7 @@ Welcome to the user information page for RIGR.
 
 ![rigr_toc](images/rigr_toc-13.svg)
 
-Resonance Invariant Graph Representation (RIGR) is a featurizer implemented as part of [**Chemprop v2**](https://github.com/chemprop/chemprop) (available in versions 2.1.2 and above), designed to impose resonance invariance for molecular property prediction tasks.
+RIGR is introduced and discussed in our work: [**RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction**](https://doi.org/10.26434/chemrxiv-2025-qgfxp). It is  designed to impose resonance invariance for molecular property prediction tasks and is accesible as a featurizer in [**Chemprop v2**](https://github.com/chemprop/chemprop) (available in versions 2.1.2 and above).
 
 - **For CLI users**: RIGR is available as a choice for the multi-hot atom featurization scheme. To use RIGR, add the following argument to your training or inference script.
    ```bash
@@ -21,7 +21,7 @@ Resonance Invariant Graph Representation (RIGR) is a featurizer implemented as p
 
 - **For Jupyter Notebook users**: Refer to our [example notebook](https://github.com/chemprop/chemprop/blob/main/examples/rigr_featurizer.ipynb) to use RIGR in a notebook environment.
 
-RIGR is introduced and discussed in our work: [**RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction**](https://doi.org/10.26434/chemrxiv-2025-qgfxp). It ensures a unified graph representation of different resonance structures of the same molecule, including non-equivalent resonance forms. By using RIGR, users can avoid manually selecting a specific resonance form for molecules or radicals exhibiting resonance. If you find RIGR helpful in your research, please consider citing our [paper](https://doi.org/10.26434/chemrxiv-2025-qgfxp).
+RIGR ensures a unified graph representation of different resonance structures of the same molecule, including non-equivalent resonance forms. By using RIGR, users can avoid manually selecting a specific resonance form for molecules or radicals exhibiting resonance. If you find RIGR helpful in your research, please consider citing our [paper](https://doi.org/10.26434/chemrxiv-2025-qgfxp).
 
 RIGR uses only the subset of atom and bond features from Chemprop that remain invariant across different resonance forms. The tables below indicate which atom and bond features are present and absent in RIGR.
 
@@ -62,3 +62,15 @@ The table below provides details on which branch corresponds to specific analyse
 | [`rigr_charge_stereo_chiral`](https://github.com/akshatzalte/chemprop/tree/rigr_charge_stereo_chiral)  | Same as `rigr_charge` but with bond stereochemistry and atom chirality features — used for [RGD1 benchmark](./benchmarks/barrier_rgd1_cnho) |
 ---
 
+## Citations
+Relevant citations if this work is useful to you:
+
+```bibtex
+@misc{https://doi.org/10.26434/chemrxiv-2025-qgfxp,
+  doi = {10.26434/chemrxiv-2025-qgfxp},
+  url = {https://doi.org/10.26434/chemrxiv-2025-qgfxp},
+  author = {Zalte, Akshat Shirish and Pang, Hao-Wei and Doner, Anna C. and Green, William H.},
+  title = {RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction},
+  publisher = {ChemXiv},
+  year = {2025},
+}

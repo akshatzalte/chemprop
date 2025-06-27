@@ -73,7 +73,7 @@ Relevant citations if this work is useful to you:
   url = {https://doi.org/10.26434/chemrxiv-2025-qgfxp},
   author = {Zalte, Akshat Shirish and Pang, Hao-Wei and Doner, Anna C. and Green, William H.},
   title = {RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction},
-  publisher = {ChemXiv},
+  publisher = {ChemRxiv},
   year = {2025},
 }
 ```
